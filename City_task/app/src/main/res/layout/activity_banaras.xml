@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BanarasActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Banaras"
+        android:textSize="30dp"
+        android:shadowRadius="5"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowColor="@color/purple_200"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        app:srcCompat="@drawable/banaras" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="@color/design_default_color_primary_variant"
+android:text="Varanasi is not only famous for being deeply rooted and synonymous with Indian culture. But It’s a delightful fusion of ancient art and modern outlook. That’s why every year, approximately 60 lakh tourists make their journey in the heart of U.P."/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</LinearLayout>

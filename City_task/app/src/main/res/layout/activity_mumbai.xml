@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".JaipurActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mumbai"
+        android:textSize="30dp"
+        android:shadowRadius="5"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowColor="@color/purple_200"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        app:srcCompat="@drawable/mumbai" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="@color/design_default_color_primary_variant"
+android:text="Mumbai, city, capital of Maharashtra state, southwestern India. It is the country’s financial and commercial center and its principal port on the Arabian Sea. What is life like in Mumbai?
+What is life like in Mumbai? Overview of Mumbai, Maharashtra, India.See all videos for this article
+Located on Maharashtra’s coast, Mumbai is India’s most-populous city, and it is one of the largest and most densely populated urban areas in the world. It was built on a site of ancient settlement, and it took its name from the local goddess Mumba—a form of Parvati, the consort of Shiva, one of the principal deities of Hinduism"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+</LinearLayout>

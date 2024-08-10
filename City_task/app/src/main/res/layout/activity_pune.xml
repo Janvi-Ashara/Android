@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PuneActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pune"
+        android:textSize="30dp"
+        android:shadowRadius="5"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowColor="@color/purple_200"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        app:srcCompat="@drawable/pune" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:text="Jaipur is located in the northeastern part of Rajasthan and covers a total area of 467 square kilometres (180 sq mi). The city is surrounded by fertile alluvial plains to the east and south and hill chains and desert areas to the north and west.[25][26] Jaipur generally slopes downwards from north to south and then to the southeast.[27] The city is surrounded by the Nahargarh hills in the north and Jhalana in the east, which is a part of the Aravalli range"/>
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert" />
+
+</LinearLayout>
