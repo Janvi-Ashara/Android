@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ahmadavadactivity"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/ahmadavad" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get ready to embark on a wild ride through the land of words and wit as we unveil the ultimate list of the top 20 content writing agencies in Ahmedabad. Brace yourselves, because this is not your average listicle.
+Ahmedabad, the city where flavor and fervor dance hand in hand, has given birth to a breed of wordsmiths who can spin tales as mesmerizing as the iconic Kankaria Lake's musical fountain. These content writing wizards possess a superpower—the ability to transform mundane words into sparkling gems that will captivate your audience like a blockbuster Bollywood movie."
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".jamnageractivity">
+
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/jamnager" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jamnagar was founded in 1540 and was the capital of former Nawanagar state. Lakhota Fort and the Kotha Bastion, two magnificent old buildings, are situated on an island in the middle of Ranmal Lake in the centre of the city. The fort was turned into a museum that exhibits sculptures dating from the 9th to the 18th century. Jamnagar’s historic temples and palaces contrast with modern factories, hospitals, and residential districts. Cement, pottery, textiles, and salt are the main industrial products, and the city is also home to two of the largest oil refineries in India. Jamnagar is famous for its bandhani (tie-dyeing work), gold embroidery, and metalware. It is the seat of Gujarat Ayurved University. Jamnagar is served by highways, railways, and an airport."
+        android:textSize="15dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back" />
+
+
+</LinearLayout>
