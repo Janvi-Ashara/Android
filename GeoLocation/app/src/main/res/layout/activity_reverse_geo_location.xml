@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReverseGeoLocation">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reverse GeoLocation"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="#8BC34A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Example layout additions -->
+
+
+    <EditText
+        android:id="@+id/editTextLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:hint="Enter Latitude"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Longitude"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="180dp"
+        />
+
+    <Button
+        android:id="@+id/buttonReverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reverse Geocode"
+        android:layout_marginTop="260dp"
+        android:gravity="center"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="50dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/back2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="420dp"
+        android:gravity="center"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="50dp"
+        />
+
+
+
+
+</RelativeLayout>
